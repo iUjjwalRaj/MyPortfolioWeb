@@ -1140,3 +1140,188 @@ hr {
   }
 }
 
+
+
+@media (max-width: 600px) {
+
+  /* ===== GLOBAL ===== */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ===== INTRO CARD ===== */
+  .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .left h1 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+  }
+
+  .right {
+    padding: 22px;
+  }
+
+  .orbit-box {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* ===== HEADER / NAV ===== */
+  .ul-list {
+    gap: 1rem;
+    padding: 10px 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ul-list li a {
+    font-size: 12px;
+  }
+
+  /* ===== HOME SECTION ===== */
+  .home {
+    margin: 120px 20px;
+  }
+
+  .home-container {
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .info-home h1 {
+    font-size: 40px;
+  }
+
+  .info-home h3 {
+    font-size: 24px;
+  }
+
+  .info-p2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home img {
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+  }
+
+  /* ===== PROJECTS ===== */
+  .project {
+    margin: 120px 20px;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===== ABOUT ===== */
+  .about {
+    margin: 120px 20px;
+  }
+
+  .about-info2 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* ===== SERVICES ===== */
+  .services {
+    margin: 120px 20px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ===== CONTACT ===== */
+  #contact {
+    padding: 100px 20px;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  /* ===== INTRO ===== */
+  .content {
+    gap: 40px;
+  }
+
+  .left h1 {
+    font-size: 44px;
+  }
+
+  /* ===== HOME ===== */
+  .home {
+    margin: 140px 60px;
+  }
+
+  .home-container {
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+  }
+
+  .home img {
+    width: 360px;
+    margin: auto;
+  }
+
+  /* ===== PROJECTS ===== */
+  .project {
+    margin: 140px 60px;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ===== ABOUT ===== */
+  .about {
+    margin: 140px 60px;
+  }
+
+  .about-info2 {
+    flex-direction: column;
+  }
+
+  /* ===== SERVICES ===== */
+  .services {
+    margin: 140px 60px;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ===== CONTACT ===== */
+  #contact {
+    padding: 120px 60px;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+}
